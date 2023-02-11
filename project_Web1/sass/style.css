@@ -1,0 +1,80 @@
+body{
+    background-image: url(img/restaurant.png);
+}
+.first{
+    background-image: url(img/OIP.jfif) ;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    width: 400px;
+    height: 250px;
+    border: 10px solid blueviolet;
+    padding-left: 10px ;
+}
+
+.second{
+    background-color: rgb(210, 159, 83);
+    color: rgb(6, 27, 27);
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    font-weight: bolder;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: capitalize;
+
+    /*the css model*/
+    /*Margin- Border- Padding*/
+    margin: 20px;
+    border: 10px solid rgb(84, 60, 60);/* width-style-color*/ 
+    padding: 10px 10px 80px 30px;/* top-right-botton-left*/
+}
+#second{
+    width: 250px;
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /*Margin- Border- Padding*/
+    margin: 30px;
+    border-color: rgb(149, 51, 51);
+    border-width: 10px;
+    border-style: dotted;
+    padding: 30px;
+}
+a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+a:visited{
+    color: aquamarine;
+}
+a:hover, a:focus{
+    color: brown;}
+a:active  {
+        color: rgb(102, 77, 176);
+}
+.first a{
+    color: darkgreen;
+}
+.first a:hover{
+    color: hotpink;
+}
+ul{
+    text-align: center;
+    background-color: antiquewhite;
+    list-style-position: inside;
+    list-style-type: circle ;
+}
+ul li{
+    background-color: darkgray;
+    border: 2px black solid;
+}
+ol{
+    background-color: burlywood;
+    text-align: center;
+    list-style-position: inside;
+}
+ol li{
+    background-color: rgb(237, 227, 227);
+    border: 2px black solid;
+}
